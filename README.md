@@ -1,1 +1,9 @@
-# Metootweet_classification
+# Decoding Digital Discourse: Multi-Label Sentiment Analysis of #MeToo Movement Tweets Employing Transformer-Based Language Models
+
+This github repository includes the files used for DistilBERT and GPT-3 multi-label classification, as well as the examples of jsonl test and train files for the oppose label, the results file for the oppose lable, and an example of the API prompt for the support label. 
+
+
+## Abstract
+The \#MeToo movement has gained substantial recognition as a noteworthy social and cultural phenomenon, bringing attention to the prevalent issue of sexual assault and harassment. This paper explores the use of transfer learning-based approaches for multi-aspect sentiment analysis of \#MeToo movement tweets, aiming to capture nuanced emotions and attitudes related to the movement. By categorizing online dialogues based on stance, hate-speech, sarcasm, and dialogue acts specific to the movement, valuable insights into social media activism and its impact on individual attitudes towards sexual assault and harassment are obtained. The paper utilizes a publicly available data set with nuanced labels and investigates the fine-tuning of existing natural language processing models, namely Generative Pre-trained Transformer (GPT-3) and Bidirectional Encoder Representations from Transformer (BERT) models.  The challenging aspects of classifying \#MeToo movement tweets are discussed, including the scarcity of labeled data, the presence of short and noisy posts, and the complexity of language surrounding the movement. This paper addresses these challenges with Multilabel Synthetic Minority Oversampling Technique (MLSMOTE) and GPT-3 synthetic data generation. Our findings demonstrate that leveraging synthetic data in conjunction with fine-tuning Davinci base model resulted in the best outcome. These results not only contribute to advancing our understanding of the linguistic dynamics associated with online movements but also shed light on their potential influence in driving social change.
+
+
